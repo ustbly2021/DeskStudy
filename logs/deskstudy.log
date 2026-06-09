@@ -1,0 +1,802 @@
+2026-06-04 15:12:40 | INFO     | app.DeskStudy.core.app:__init__:116 | ==================================================
+2026-06-04 15:12:40 | INFO     | app.DeskStudy.core.app:__init__:117 | DeskStudy 启动中...
+2026-06-04 15:12:40 | INFO     | app.DeskStudy.core.app:__init__:118 | ==================================================
+2026-06-04 15:12:41 | INFO     | app.DeskStudy.core.app:run:483 | BossKeySignal 已创建并连接
+2026-06-04 15:12:41 | INFO     | app.DeskStudy.core.app:initialize:144 | 检查许可证...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:155 | 许可证有效: 周卡, 剩余 6 天
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:157 | 初始化数据库...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:160 | 初始化服务...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:166 | 检查示例题库...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:169 | 初始化主窗口...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:172 | 初始化题目卡片...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:175 | 初始化悬浮球...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:178 | 初始化系统托盘...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:181 | 初始化热键...
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:_init_hotkeys:316 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 15:12:46 | INFO     | app.DeskStudy.core.app:initialize:186 | DeskStudy 初始化完成!
+2026-06-04 15:12:49 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 15:12:50 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=12
+2026-06-04 15:12:50 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:492 | 已添加到错题本: question_id=12
+2026-06-04 15:12:50 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:503 | 答题结果: 错误
+2026-06-04 15:12:54 | INFO     | app.DeskStudy.core.app:_check_mouse_click:269 | 点击外部，隐藏面板
+2026-06-04 15:12:58 | INFO     | app.DeskStudy.core.app:_on_exit:456 | DeskStudy 退出中...
+2026-06-04 15:12:58 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-04 15:12:58 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-04 15:24:28 | INFO     | app.DeskStudy.core.app:__init__:116 | ==================================================
+2026-06-04 15:24:28 | INFO     | app.DeskStudy.core.app:__init__:117 | DeskStudy 启动中...
+2026-06-04 15:24:28 | INFO     | app.DeskStudy.core.app:__init__:118 | ==================================================
+2026-06-04 15:24:28 | INFO     | app.DeskStudy.core.app:run:483 | BossKeySignal 已创建并连接
+2026-06-04 15:24:28 | INFO     | app.DeskStudy.core.app:initialize:144 | 检查许可证...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:155 | 许可证有效: 周卡, 剩余 6 天
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:157 | 初始化数据库...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:160 | 初始化服务...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:166 | 检查示例题库...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:169 | 初始化主窗口...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:172 | 初始化题目卡片...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:175 | 初始化悬浮球...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:178 | 初始化系统托盘...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:181 | 初始化热键...
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:_init_hotkeys:316 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 15:24:31 | INFO     | app.DeskStudy.core.app:initialize:186 | DeskStudy 初始化完成!
+2026-06-04 15:24:34 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-04 15:24:36 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:587 | 找到 2 个可能的Cookie文件路径
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_get_chrome_encryption_key:735 | 成功通过ctypes解密浏览器密钥
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:609 | 成功获取加密密钥: Chrome-Default, 密钥长度: 32
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:617 | Chrome-Default 共有 553 个Cookie
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:620 | Chrome-Default 粉笔网相关Cookie: 2 个
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: device_id (host: .fenbi.com, 前缀: b'v20')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sensorsdata2015jssdkcross (host: .fenbi.com, 前缀: b'v20')
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_get_chrome_encryption_key:735 | 成功通过ctypes解密浏览器密钥
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:609 | 成功获取加密密钥: Edge-Default, 密钥长度: 32
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:617 | Edge-Default 共有 1796 个Cookie
+2026-06-04 15:24:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:620 | Edge-Default 粉笔网相关Cookie: 14 个
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 device_id: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: device_id (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 persistent: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: persistent (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 sid: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sid (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 HMACCOUNT: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: HMACCOUNT (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 Hm_lpvt_e7351028cde0d0ccb9ccdbe5fe531683: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: Hm_lpvt_e7351028cde0d0ccb9ccdbe5fe531683 (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 Hm_lvt_e7351028cde0d0ccb9ccdbe5fe531683: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: Hm_lvt_e7351028cde0d0ccb9ccdbe5fe531683 (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 acw_tc: 'utf-8' codec can't decode byte 0xab in position 2: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: acw_tc (host: tiku.fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 sess: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sess (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 userid: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: userid (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 SERVERCORSID: 'utf-8' codec can't decode byte 0xba in position 2: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: SERVERCORSID (host: data-api.fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 SERVERID: 'utf-8' codec can't decode byte 0xba in position 2: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: SERVERID (host: data-api.fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 acw_tc: 'utf-8' codec can't decode byte 0xe4 in position 1: invalid continuation byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: acw_tc (host: login.fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 acw_tc: 'utf-8' codec can't decode byte 0x84 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: acw_tc (host: www.fenbi.com, 前缀: b'v10')
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 sensorsdata2015jssdkcross: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 15:24:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sensorsdata2015jssdkcross (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 15:28:56 | INFO     | app.DeskStudy.ui.statistics_dialog:__init__:23 | 统计对话框初始化完成
+2026-06-04 15:29:07 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 15:29:08 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=26
+2026-06-04 15:29:08 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:492 | 已添加到错题本: question_id=26
+2026-06-04 15:29:08 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:503 | 答题结果: 错误
+2026-06-04 15:29:10 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=10
+2026-06-04 15:29:10 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:492 | 已添加到错题本: question_id=10
+2026-06-04 15:29:10 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:503 | 答题结果: 错误
+2026-06-04 15:29:13 | INFO     | app.DeskStudy.core.app:_check_mouse_click:269 | 点击外部，隐藏面板
+2026-06-04 15:29:21 | INFO     | app.DeskStudy.services.statistics_service:reset_all_statistics:212 | 所有统计已重置: 1条记录
+2026-06-04 15:33:18 | INFO     | app.DeskStudy.core.app:_on_exit:456 | DeskStudy 退出中...
+2026-06-04 15:33:18 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-04 15:33:18 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-04 15:46:02 | INFO     | app.DeskStudy.core.app:__init__:116 | ==================================================
+2026-06-04 15:46:02 | INFO     | app.DeskStudy.core.app:__init__:117 | DeskStudy 启动中...
+2026-06-04 15:46:02 | INFO     | app.DeskStudy.core.app:__init__:118 | ==================================================
+2026-06-04 15:46:02 | INFO     | app.DeskStudy.core.app:run:483 | BossKeySignal 已创建并连接
+2026-06-04 15:46:02 | INFO     | app.DeskStudy.core.app:initialize:144 | 检查许可证...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:155 | 许可证有效: 周卡, 剩余 5 天
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:157 | 初始化数据库...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:160 | 初始化服务...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:166 | 检查示例题库...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:169 | 初始化主窗口...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:172 | 初始化题目卡片...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:175 | 初始化悬浮球...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:178 | 初始化系统托盘...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:181 | 初始化热键...
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:_init_hotkeys:316 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 15:46:05 | INFO     | app.DeskStudy.core.app:initialize:186 | DeskStudy 初始化完成!
+2026-06-04 15:46:08 | INFO     | app.DeskStudy.ui.statistics_dialog:__init__:23 | 统计对话框初始化完成
+2026-06-04 15:54:40 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 15:54:41 | INFO     | app.DeskStudy.core.app:_check_mouse_click:269 | 点击外部，隐藏面板
+2026-06-04 15:54:42 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 15:54:47 | INFO     | app.DeskStudy.core.app:_check_mouse_click:269 | 点击外部，隐藏面板
+2026-06-04 16:00:54 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-04 16:00:54 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-04 16:00:54 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-04 16:00:54 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-04 16:00:54 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 16:00:57 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-04 16:00:58 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 16:00:58 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-04 16:00:58 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 16:00:58 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 16:00:58 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 16:00:58 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-04 16:01:01 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 16:01:05 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=18
+2026-06-04 16:01:05 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:492 | 已添加到错题本: question_id=18
+2026-06-04 16:01:06 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:503 | 答题结果: 错误
+2026-06-04 16:01:07 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:503 | 答题结果: 正确
+2026-06-04 16:01:09 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=20
+2026-06-04 16:01:09 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:492 | 已添加到错题本: question_id=20
+2026-06-04 16:01:09 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:503 | 答题结果: 错误
+2026-06-04 16:01:11 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=12
+2026-06-04 16:01:11 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:492 | 已添加到错题本: question_id=12
+2026-06-04 16:01:11 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:503 | 答题结果: 错误
+2026-06-04 16:01:18 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-04 16:01:24 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-04 16:01:24 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-04 16:01:24 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-04 16:55:12 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-04 16:55:12 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-04 16:55:12 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-04 16:55:12 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-04 16:55:12 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-04 16:55:14 | ERROR    | app.DeskStudy.core.app:_check_sample_questions:232 | 检查示例题目失败: (sqlite3.OperationalError) no such column: questions.correct_rate
+[SQL: SELECT questions.id AS questions_id, questions.content AS questions_content, questions.option_a AS questions_option_a, questions.option_b AS questions_option_b, questions.option_c AS questions_option_c, questions.option_d AS questions_option_d, questions.correct_answer AS questions_correct_answer, questions.explanation AS questions_explanation, questions.category AS questions_category, questions.correct_rate AS questions_correct_rate, questions.source AS questions_source, questions.question_type AS questions_question_type, questions.is_judgment AS questions_is_judgment, questions.create_time AS questions_create_time, questions.update_time AS questions_update_time 
+FROM questions]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 16:55:14 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-04 16:55:34 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-04 16:55:34 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-04 16:55:34 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-04 16:55:38 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-04 16:55:38 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-04 16:55:38 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-04 16:55:38 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-04 16:55:38 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-04 16:55:39 | ERROR    | app.DeskStudy.core.app:_check_sample_questions:232 | 检查示例题目失败: (sqlite3.OperationalError) no such column: questions.correct_rate
+[SQL: SELECT questions.id AS questions_id, questions.content AS questions_content, questions.option_a AS questions_option_a, questions.option_b AS questions_option_b, questions.option_c AS questions_option_c, questions.option_d AS questions_option_d, questions.correct_answer AS questions_correct_answer, questions.explanation AS questions_explanation, questions.category AS questions_category, questions.correct_rate AS questions_correct_rate, questions.source AS questions_source, questions.question_type AS questions_question_type, questions.is_judgment AS questions_is_judgment, questions.create_time AS questions_create_time, questions.update_time AS questions_update_time 
+FROM questions]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 16:55:39 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-04 16:55:55 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-04 16:55:55 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-04 16:55:55 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-04 16:58:06 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-04 16:58:06 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-04 16:58:06 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-04 16:58:06 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-04 16:58:06 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.database.connection:_add_column_if_not_exists:91 | 添加新字段: questions.correct_rate
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.database.connection:_add_column_if_not_exists:91 | 添加新字段: questions.source
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 16:58:08 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-04 16:58:16 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-04 16:58:20 | INFO     | app.DeskStudy.services.question_service:clear_all:282 | 清空题库成功: 删除30题
+2026-06-04 16:58:21 | INFO     | app.DeskStudy.ui.settings_dialog:_on_clear:610 | 清空题库: 删除30题
+2026-06-04 16:58:24 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-04 16:58:47 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-04 16:58:53 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:406 | 启动浏览器失败: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:587 | 找到 2 个可能的Cookie文件路径
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_get_chrome_encryption_key:735 | 成功通过ctypes解密浏览器密钥
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:609 | 成功获取加密密钥: Chrome-Default, 密钥长度: 32
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:617 | Chrome-Default 共有 553 个Cookie
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:620 | Chrome-Default 粉笔网相关Cookie: 2 个
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: device_id (host: .fenbi.com, 前缀: b'v20')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sensorsdata2015jssdkcross (host: .fenbi.com, 前缀: b'v20')
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_get_chrome_encryption_key:735 | 成功通过ctypes解密浏览器密钥
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:609 | 成功获取加密密钥: Edge-Default, 密钥长度: 32
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:617 | Edge-Default 共有 1788 个Cookie
+2026-06-04 16:59:05 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:620 | Edge-Default 粉笔网相关Cookie: 13 个
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 device_id: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: device_id (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 persistent: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: persistent (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 sid: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sid (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 HMACCOUNT: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: HMACCOUNT (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 sess: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sess (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 userid: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: userid (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 Hm_lpvt_e7351028cde0d0ccb9ccdbe5fe531683: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: Hm_lpvt_e7351028cde0d0ccb9ccdbe5fe531683 (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 Hm_lvt_e7351028cde0d0ccb9ccdbe5fe531683: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: Hm_lvt_e7351028cde0d0ccb9ccdbe5fe531683 (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 acw_tc: 'utf-8' codec can't decode byte 0xab in position 2: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: acw_tc (host: tiku.fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 sensorsdata2015jssdkcross: 'utf-8' codec can't decode byte 0xf5 in position 0: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: sensorsdata2015jssdkcross (host: .fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 SERVERCORSID: 'utf-8' codec can't decode byte 0xba in position 2: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: SERVERCORSID (host: data-api.fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 SERVERID: 'utf-8' codec can't decode byte 0xba in position 2: invalid start byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: SERVERID (host: data-api.fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:635 | AES解密失败 acw_tc: 'utf-8' codec can't decode byte 0xe4 in position 1: invalid continuation byte
+2026-06-04 16:59:05 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_read_browser_cookies_manual:664 | Cookie解密失败: acw_tc (host: login.fenbi.com, 前缀: b'v10')
+2026-06-04 16:59:24 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-04 16:59:25 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-04 16:59:39 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_extract_cookies_from_driver:425 | 开始提取Cookie...
+2026-06-04 16:59:39 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_extract_cookies_from_driver:439 | 获取到 10 个Cookie
+2026-06-04 17:00:42 | INFO     | app.DeskStudy.services.fenbi_service:import_questions:379 | 已点击交卷按钮
+2026-06-04 17:00:43 | INFO     | app.DeskStudy.services.fenbi_service:import_questions:386 | 已点击确认按钮
+2026-06-04 17:00:47 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:441 | 找到 120 个题目容器
+2026-06-04 17:00:47 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:468 | 提取章节: 言语理解与表达 (题目 21-50)
+2026-06-04 17:00:54 | INFO     | app.DeskStudy.services.question_service:add_questions_batch:82 | 批量添加题目成功: 30题
+2026-06-04 17:00:55 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_on_import_finished:948 | 粉笔导入成功: 30 题
+2026-06-04 17:00:56 | INFO     | app.DeskStudy.ui.settings_dialog:_on_save:509 | 设置已保存
+2026-06-04 17:00:59 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 17:01:05 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=28
+2026-06-04 17:01:05 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=28
+2026-06-04 17:01:06 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:01:18 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-04 17:01:19 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 17:01:24 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=5
+2026-06-04 17:01:24 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=5
+2026-06-04 17:01:24 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:02:00 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 17:02:03 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-04 17:03:04 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 17:03:57 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=18
+2026-06-04 17:03:57 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=18
+2026-06-04 17:03:57 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:04:49 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=10
+2026-06-04 17:04:49 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=10
+2026-06-04 17:04:49 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:04:51 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-04 17:05:20 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-04 17:05:20 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-04 17:05:20 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-04 17:05:20 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-04 17:05:20 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 17:05:22 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-04 17:05:31 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-04 17:05:37 | INFO     | app.DeskStudy.services.question_service:clear_all:282 | 清空题库成功: 删除30题
+2026-06-04 17:05:38 | INFO     | app.DeskStudy.ui.settings_dialog:_on_clear:610 | 清空题库: 删除30题
+2026-06-04 17:05:40 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-04 17:05:47 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-04 17:05:58 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_extract_cookies_from_driver:425 | 开始提取Cookie...
+2026-06-04 17:05:58 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_extract_cookies_from_driver:439 | 获取到 10 个Cookie
+2026-06-04 17:07:12 | WARNING  | app.DeskStudy.services.fenbi_service:import_questions:394 | 未找到交卷按钮，可能已交卷或页面结构不同
+2026-06-04 17:07:13 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:438 | 解析到全站正确率: 72.0%
+2026-06-04 17:07:13 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:443 | 找到 120 个题目容器
+2026-06-04 17:07:13 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:470 | 提取章节: 言语理解与表达 (题目 21-50)
+2026-06-04 17:07:20 | INFO     | app.DeskStudy.services.question_service:add_questions_batch:82 | 批量添加题目成功: 30题
+2026-06-04 17:07:21 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_on_import_finished:948 | 粉笔导入成功: 30 题
+2026-06-04 17:07:22 | INFO     | app.DeskStudy.ui.settings_dialog:_on_save:509 | 设置已保存
+2026-06-04 17:07:23 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 17:07:57 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=16
+2026-06-04 17:07:57 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=16
+2026-06-04 17:07:57 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:08:15 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-04 17:08:21 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-04 17:08:24 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=4
+2026-06-04 17:08:24 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=4
+2026-06-04 17:08:24 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:08:27 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-04 17:09:17 | INFO     | app.DeskStudy.services.question_service:clear_all:282 | 清空题库成功: 删除30题
+2026-06-04 17:09:18 | INFO     | app.DeskStudy.ui.settings_dialog:_on_clear:610 | 清空题库: 删除30题
+2026-06-04 17:09:31 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-04 17:09:31 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-04 17:09:31 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-04 17:16:36 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-04 17:16:36 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-04 17:16:36 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-04 17:16:36 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-04 17:16:36 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.services.question_service:add_questions_batch:82 | 批量添加题目成功: 10题
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:_check_sample_questions:228 | 已自动导入 10 道示例题目
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-04 17:16:38 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-04 17:16:41 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-04 17:16:46 | INFO     | app.DeskStudy.services.question_service:clear_all:282 | 清空题库成功: 删除10题
+2026-06-04 17:16:47 | INFO     | app.DeskStudy.ui.settings_dialog:_on_clear:610 | 清空题库: 删除10题
+2026-06-04 17:16:48 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-04 17:16:50 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-04 17:16:55 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:406 | 启动浏览器失败: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-06-04 17:17:21 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-04 17:17:22 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-04 17:17:33 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_extract_cookies_from_driver:425 | 开始提取Cookie...
+2026-06-04 17:17:33 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_extract_cookies_from_driver:439 | 获取到 10 个Cookie
+2026-06-04 17:18:40 | WARNING  | app.DeskStudy.services.fenbi_service:import_questions:394 | 未找到交卷按钮，可能已交卷或页面结构不同
+2026-06-04 17:18:41 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:434 | 找到 120 个题目容器，120 个正确率容器
+2026-06-04 17:18:41 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:463 | 提取章节: 常识 (题目 1-20)
+2026-06-04 17:18:48 | INFO     | app.DeskStudy.services.question_service:add_questions_batch:82 | 批量添加题目成功: 20题
+2026-06-04 17:18:49 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_on_import_finished:948 | 粉笔导入成功: 20 题
+2026-06-04 17:18:52 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 17:18:54 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=11
+2026-06-04 17:18:54 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=11
+2026-06-04 17:18:54 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:18:56 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=1
+2026-06-04 17:18:56 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=1
+2026-06-04 17:18:56 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:19:05 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=14
+2026-06-04 17:19:05 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=14
+2026-06-04 17:19:05 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-04 17:19:17 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-04 17:19:39 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-04 17:19:45 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 07:53:48 | INFO     | app.DeskStudy.services.question_service:clear_all:282 | 清空题库成功: 删除20题
+2026-06-05 07:53:49 | INFO     | app.DeskStudy.ui.settings_dialog:_on_clear:610 | 清空题库: 删除20题
+2026-06-05 07:53:57 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-05 07:53:57 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-05 07:53:57 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-05 07:56:24 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-05 07:56:24 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-05 07:56:24 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-05 07:56:24 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-05 07:56:24 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.services.question_service:add_questions_batch:82 | 批量添加题目成功: 10题
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:_check_sample_questions:228 | 已自动导入 10 道示例题目
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-05 07:56:27 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-05 07:56:29 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-05 07:56:35 | INFO     | app.DeskStudy.services.question_service:add_questions_batch:82 | 批量添加题目成功: 10题
+2026-06-05 07:56:36 | INFO     | app.DeskStudy.ui.settings_dialog:_on_import:535 | 导入题库: D:/Develop/Code/RandomIdea/DeskStudy/sample_questions.json, 共10题
+2026-06-05 07:56:37 | INFO     | app.DeskStudy.ui.settings_dialog:_on_save:509 | 设置已保存
+2026-06-05 07:56:38 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 07:56:41 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-05 07:56:44 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-05 07:56:45 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=1
+2026-06-05 07:56:45 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=1
+2026-06-05 07:56:45 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-05 07:56:48 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=11
+2026-06-05 07:56:48 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=11
+2026-06-05 07:56:48 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-05 07:56:50 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-05 07:56:53 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=18
+2026-06-05 07:56:53 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=18
+2026-06-05 07:56:53 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-05 07:56:55 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 07:57:01 | INFO     | app.DeskStudy.services.question_service:clear_all:282 | 清空题库成功: 删除20题
+2026-06-05 07:57:02 | INFO     | app.DeskStudy.ui.settings_dialog:_on_clear:610 | 清空题库: 删除20题
+2026-06-05 07:57:03 | INFO     | app.DeskStudy.ui.settings_dialog:_on_save:509 | 设置已保存
+2026-06-05 07:57:07 | INFO     | app.DeskStudy.ui.wrong_question_dialog:__init__:29 | 错题本窗口初始化完成
+2026-06-05 07:57:14 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-05 07:57:31 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-05 07:57:39 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:406 | 启动浏览器失败: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-06-05 07:59:35 | WARNING  | app.DeskStudy.services.fenbi_service:import_questions:394 | 未找到交卷按钮，可能已交卷或页面结构不同
+2026-06-05 07:59:37 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:434 | 找到 130 个题目容器，130 个正确率容器
+2026-06-05 07:59:37 | INFO     | app.DeskStudy.services.fenbi_service:_parse_questions:463 | 提取章节: 言语理解与表达 (题目 36-65)
+2026-06-05 07:59:43 | INFO     | app.DeskStudy.services.question_service:add_questions_batch:82 | 批量添加题目成功: 30题
+2026-06-05 07:59:45 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_on_import_finished:948 | 粉笔导入成功: 30 题
+2026-06-05 07:59:48 | INFO     | app.DeskStudy.ui.settings_dialog:_on_save:509 | 设置已保存
+2026-06-05 07:59:49 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 07:59:52 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-05 08:58:08 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 08:58:22 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 08:58:32 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 08:58:58 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=4
+2026-06-05 08:58:58 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=4
+2026-06-05 08:58:58 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-05 08:59:18 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-05 08:59:19 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.utils.hotkey:_on_press:140 | 热键匹配成功: ('ctrl', 'shift', 'b'), 触发回调
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.core.app:emit_from_thread:131 | BossKeySignal: 从后台线程发射信号
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.utils.hotkey:_on_press:143 | 回调执行完毕
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.core.app:_on_triggered:127 | BossKeySignal: 信号已到达主线程，执行回调
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.core.app:_on_boss_key:371 | 老板键触发! is_hidden=False
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.core.app:_hide_all:381 | 执行隐藏所有窗口...
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.core.app:_hide_all:383 | 隐藏悬浮球, 当前visible=True
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.core.app:_hide_all:386 | 隐藏题目面板, 当前visible=False
+2026-06-05 09:00:17 | INFO     | app.DeskStudy.core.app:_on_boss_key:377 | 老板键处理完成, is_hidden=True
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.utils.hotkey:_on_press:140 | 热键匹配成功: ('ctrl', 'shift', 'b'), 触发回调
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.core.app:emit_from_thread:131 | BossKeySignal: 从后台线程发射信号
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.utils.hotkey:_on_press:143 | 回调执行完毕
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.core.app:_on_triggered:127 | BossKeySignal: 信号已到达主线程，执行回调
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.core.app:_on_boss_key:371 | 老板键触发! is_hidden=True
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.core.app:_show_all:394 | 执行显示所有窗口...
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.core.app:_show_all:397 | 显示悬浮球, 当前visible=True
+2026-06-05 09:43:18 | INFO     | app.DeskStudy.core.app:_on_boss_key:377 | 老板键处理完成, is_hidden=False
+2026-06-05 09:43:19 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 09:43:25 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 09:43:36 | INFO     | app.DeskStudy.services.wrong_question_service:remove_wrong_question:131 | 移除错题: question_id=4
+2026-06-05 09:52:39 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 09:52:42 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 14:45:18 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-05 14:45:18 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-05 14:45:18 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-05 14:45:18 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-05 14:45:18 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 5 天
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-05 14:45:20 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-05 14:45:23 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 14:45:24 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 14:45:30 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 14:45:41 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 14:46:31 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 14:46:35 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 14:46:43 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 14:46:48 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 14:49:41 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-05 14:49:42 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-05 14:55:07 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-05 14:55:20 | INFO     | app.DeskStudy.ui.settings_dialog:_on_save:509 | 设置已保存
+2026-06-05 15:01:11 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-05 15:01:11 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-05 15:01:11 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-09 11:18:27 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 11:18:27 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 11:18:27 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 11:18:27 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 11:18:27 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 11:18:29 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 11:18:52 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-09 11:18:52 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-09 11:18:52 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-09 11:26:45 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 11:26:45 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 11:26:45 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 11:26:45 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 11:26:45 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 11:26:46 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 11:26:46 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 11:26:46 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 11:26:46 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 11:26:46 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 11:26:46 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 11:26:46 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 11:26:47 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 11:26:50 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-09 11:26:52 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-09 11:26:54 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-09 11:27:01 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:406 | 启动浏览器失败: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-06-09 11:27:38 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-09 11:27:44 | INFO     | app.DeskStudy.services.wrong_question_service:add_wrong_question:58 | 新增错题: question_id=21
+2026-06-09 11:27:44 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:531 | 已添加到错题本: question_id=21
+2026-06-09 11:27:44 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 错误
+2026-06-09 11:27:47 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-09 11:27:55 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-09 11:31:42 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 11:31:42 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 11:31:42 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 11:31:42 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 11:31:42 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 11:31:44 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 11:31:53 | INFO     | app.DeskStudy.ui.wrong_question_dialog:__init__:29 | 错题本窗口初始化完成
+2026-06-09 11:31:58 | INFO     | app.DeskStudy.ui.statistics_dialog:__init__:23 | 统计对话框初始化完成
+2026-06-09 11:32:26 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-09 11:32:29 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-09 11:32:30 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-09 11:32:35 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:406 | 启动浏览器失败: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-06-09 11:34:34 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 11:34:34 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 11:34:34 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 11:34:34 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 11:34:34 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 11:34:36 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 11:34:38 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-09 11:34:40 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-09 11:34:41 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-09 11:34:42 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:378 | 尝试使用 webdriver_manager 启动 Edge...
+2026-06-09 11:34:45 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:385 | webdriver_manager 失败: Could not reach host. Are you offline?
+2026-06-09 11:34:45 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:390 | 尝试使用系统 PATH 中的 EdgeDriver...
+2026-06-09 11:34:46 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:396 | 系统 PATH EdgeDriver 失败: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-06-09 11:34:46 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:403 | 尝试使用 Chrome 浏览器...
+2026-06-09 11:34:50 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:421 | Chrome 失败: Could not reach host. Are you offline?
+2026-06-09 11:34:50 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:457 | 启动浏览器失败: 无法启动浏览器，请检查：
+1. 确保已安装 Edge 或 Chrome 浏览器
+2. 或手动粘贴 Cookie
+
+详细错误: webdriver_manager: Could not reach host. Are you offline?; 系统 PATH: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+; Chrome: Could not reach host. Are you offline?
+2026-06-09 11:37:00 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 11:37:00 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 11:37:00 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 11:37:00 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 11:37:00 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 11:37:02 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 11:37:05 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-09 11:37:06 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-09 11:37:08 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-09 11:37:08 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:393 | 尝试使用 webdriver_manager 启动 Edge...
+2026-06-09 11:37:11 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:400 | webdriver_manager 失败: Could not reach host. Are you offline?
+2026-06-09 11:37:11 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:405 | 尝试使用系统 PATH 中的 EdgeDriver...
+2026-06-09 11:37:12 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:411 | 系统 PATH EdgeDriver 失败: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2026-06-09 11:37:12 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:418 | 尝试使用 Chrome 浏览器...
+2026-06-09 11:37:16 | WARNING  | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:436 | Chrome 失败: Could not reach host. Are you offline?
+2026-06-09 11:37:16 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:472 | 启动浏览器失败: 无法启动浏览器，请检查：
+1. 确保已安装 Edge 或 Chrome 浏览器
+2. 或手动粘贴 Cookie
+
+详细错误: webdriver_manager: Could not reach host. Are you offline?; 系统 PATH: Message: Unable to obtain driver for MicrosoftEdge; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+; Chrome: Could not reach host. Are you offline?
+2026-06-09 11:39:17 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 11:39:17 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 11:39:17 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 11:39:17 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 11:39:17 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 11:39:19 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 11:39:22 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-09 11:39:24 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:105 | 粉笔导入对话框初始化完成
+2026-06-09 11:39:25 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:368 | 使用Edge默认配置文件
+2026-06-09 11:39:25 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:385 | 使用本地 EdgeDriver: d:\Develop\Code\RandomIdea\DeskStudy\msedgedriver.exe
+2026-06-09 11:39:29 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:389 | 本地 EdgeDriver 启动成功
+2026-06-09 11:39:37 | ERROR    | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:478 | 启动浏览器失败: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=130.0.2849.56)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE45DC75+12853]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6CE7083C4+2250276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6CE6476A6+1460486]
+	(No symbol) [0x00007FF6CE1F84C7]
+	(No symbol) [0x00007FF6CE27CBED]
+	(No symbol) [0x00007FF6CE290D7A]
+	(No symbol) [0x00007FF6CE278163]
+	(No symbol) [0x00007FF6CE24FB54]
+	(No symbol) [0x00007FF6CE24F000]
+	(No symbol) [0x00007FF6CE24F741]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6CE5DCDB4+1024020]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6CE379A04+57108]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6CE5DBDB3+1019923]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6CE5DBA19+1019001]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6CE3FE031+394913]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6CE3FA954+380868]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6CE3FAA99+381193]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6CE3F2296+346374]
+	BaseThreadInitThunk [0x00007FFD25A6259D+29]
+	RtlUserThreadStart [0x00007FFD26B2AF38+40]
+
+2026-06-09 11:39:55 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-09 11:39:55 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-09 11:39:55 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-09 11:46:30 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 11:46:30 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 11:46:30 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 11:46:30 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 11:46:30 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 11:46:32 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 11:46:34 | INFO     | app.DeskStudy.ui.settings_dialog:__init__:66 | 设置窗口初始化完成
+2026-06-09 11:46:35 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:__init__:107 | 粉笔导入对话框初始化完成
+2026-06-09 11:46:36 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:370 | 使用Edge默认配置文件
+2026-06-09 11:46:36 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:397 | 使用 EdgeDriver: d:\Develop\Code\RandomIdea\DeskStudy\msedgedriver.exe
+2026-06-09 11:46:38 | INFO     | app.DeskStudy.ui.fenbi_import_dialog:_browser_login_thread:401 | EdgeDriver 启动成功
+2026-06-09 11:46:42 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
+2026-06-09 11:46:42 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
+2026-06-09 11:46:42 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止

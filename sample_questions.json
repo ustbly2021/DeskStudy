@@ -1,0 +1,130 @@
+{
+    "questions": [
+        {
+            "content": "下列关于社会主义核心价值观的说法，正确的是？",
+            "option_a": "富强、民主、文明、和谐",
+            "option_b": "自由、平等、公正、法治",
+            "option_c": "爱国、敬业、诚信、友善",
+            "option_d": "以上都是",
+            "correct_answer": "D",
+            "explanation": "社会主义核心价值观包括国家层面的富强、民主、文明、和谐，社会层面的自由、平等、公正、法治，个人层面的爱国、敬业、诚信、友善。",
+            "category": "政治理论",
+            "correct_rate": 85.5,
+            "source": "2024年国考",
+            "question_type": "single"
+        },
+        {
+            "content": "马克思主义最鲜明的政治立场是？",
+            "option_a": "致力于实现最广大人民的根本利益",
+            "option_b": "致力于推翻封建统治",
+            "option_c": "致力于建立共产主义社会",
+            "option_d": "致力于发展生产力",
+            "correct_answer": "A",
+            "explanation": "马克思主义最鲜明的政治立场是致力于实现最广大人民的根本利益，这是由马克思主义理论的本质属性决定的。",
+            "category": "政治理论",
+            "correct_rate": 72.3,
+            "source": "2024年山东省考",
+            "question_type": "single"
+        },
+        {
+            "content": "中国特色社会主义最本质的特征是？",
+            "option_a": "人民当家作主",
+            "option_b": "中国共产党领导",
+            "option_c": "依法治国",
+            "option_d": "社会主义市场经济",
+            "correct_answer": "B",
+            "explanation": "中国共产党的领导是中国特色社会主义最本质的特征，是中国特色社会主义制度的最大优势。",
+            "category": "政治理论",
+            "correct_rate": 91.2,
+            "source": "2023年国考",
+            "question_type": "single"
+        },
+        {
+            "content": "新发展理念包括创新、协调、绿色、开放、共享。",
+            "option_a": "正确",
+            "option_b": "错误",
+            "correct_answer": "A",
+            "explanation": "党的十八届五中全会提出了创新、协调、绿色、开放、共享的新发展理念。",
+            "category": "政治理论",
+            "correct_rate": 88.0,
+            "source": "2024年江苏省考",
+            "question_type": "judgment",
+            "is_judgment": true
+        },
+        {
+            "content": "中华民族近代以来最伟大的梦想是？",
+            "option_a": "实现中华民族伟大复兴",
+            "option_b": "实现国家富强",
+            "option_c": "实现人民幸福",
+            "option_d": "实现四个现代化",
+            "correct_answer": "A",
+            "explanation": "实现中华民族伟大复兴是近代以来中华民族最伟大的梦想。",
+            "category": "政治理论",
+            "correct_rate": 95.5,
+            "source": "2025年国考",
+            "question_type": "single"
+        },
+        {
+            "content": "我国经济发展的根本目的是？",
+            "option_a": "增加财政收入",
+            "option_b": "提高国际地位",
+            "option_c": "增进民生福祉",
+            "option_d": "增强国防实力",
+            "correct_answer": "C",
+            "explanation": "我国经济发展的根本目的是增进民生福祉，让发展成果更多更公平惠及全体人民。",
+            "category": "经济建设",
+            "correct_rate": 68.7,
+            "source": "2024年浙江省考",
+            "question_type": "single"
+        },
+        {
+            "content": "全面推进依法治国总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。",
+            "option_a": "正确",
+            "option_b": "错误",
+            "correct_answer": "A",
+            "explanation": "全面推进依法治国总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。",
+            "category": "法治建设",
+            "correct_rate": 76.4,
+            "source": "2023年广东省考",
+            "question_type": "judgment",
+            "is_judgment": true
+        },
+        {
+            "content": "社会主义道德建设的核心是？",
+            "option_a": "爱国主义",
+            "option_b": "集体主义",
+            "option_c": "为人民服务",
+            "option_d": "诚实守信",
+            "correct_answer": "C",
+            "explanation": "社会主义道德建设的核心是为人民服务，这是社会主义道德区别和优越于其他社会形态道德的显著标志。",
+            "category": "道德建设",
+            "correct_rate": 55.8,
+            "source": "2024年河南省考",
+            "question_type": "single"
+        },
+        {
+            "content": "文化自信是一个国家、一个民族发展中更基本、更深沉、更持久的力量。",
+            "option_a": "正确",
+            "option_b": "错误",
+            "correct_answer": "A",
+            "explanation": "文化自信是一个国家、一个民族发展中更基本、更深沉、更持久的力量。没有高度的文化自信，没有文化的繁荣兴盛，就没有中华民族伟大复兴。",
+            "category": "文化建设",
+            "correct_rate": 82.1,
+            "source": "2024年四川省考",
+            "question_type": "judgment",
+            "is_judgment": true
+        },
+        {
+            "content": "生态文明建设是关系中华民族永续发展的根本大计。",
+            "option_a": "正确",
+            "option_b": "错误",
+            "correct_answer": "A",
+            "explanation": "生态文明建设是关系中华民族永续发展的根本大计，要坚持节约资源和保护环境的基本国策。",
+            "category": "生态文明建设",
+            "correct_rate": 79.3,
+            "source": "2025年国考",
+            "question_type": "judgment",
+            "is_judgment": true
+        }
+    ]
+}
