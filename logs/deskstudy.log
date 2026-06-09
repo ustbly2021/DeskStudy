@@ -800,3 +800,51 @@ Stacktrace:
 2026-06-09 11:46:42 | INFO     | app.DeskStudy.core.app:_on_exit:481 | DeskStudy 退出中...
 2026-06-09 11:46:42 | INFO     | app.DeskStudy.ui.system_tray:dispose:207 | 系统托盘已销毁
 2026-06-09 11:46:42 | INFO     | app.DeskStudy.utils.hotkey:stop:105 | 热键监听已停止
+2026-06-09 15:19:46 | INFO     | app.DeskStudy.core.app:__init__:141 | ==================================================
+2026-06-09 15:19:46 | INFO     | app.DeskStudy.core.app:__init__:142 | DeskStudy 启动中...
+2026-06-09 15:19:46 | INFO     | app.DeskStudy.core.app:__init__:143 | ==================================================
+2026-06-09 15:19:46 | INFO     | app.DeskStudy.core.app:run:508 | BossKeySignal 已创建并连接
+2026-06-09 15:19:46 | INFO     | app.DeskStudy.core.app:initialize:169 | 检查许可证...
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:180 | 许可证有效: 周卡, 剩余 1 天
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:182 | 初始化数据库...
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.database.connection:migrate_database:77 | 数据库迁移完成
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:185 | 初始化服务...
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:191 | 检查示例题库...
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:194 | 初始化主窗口...
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:197 | 初始化题目卡片...
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.ui.question_card:__init__:279 | 题目卡片初始化完成
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:200 | 初始化悬浮球...
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.ui.floating_ball:__init__:38 | 悬浮球初始化完成
+2026-06-09 15:19:49 | INFO     | app.DeskStudy.core.app:initialize:203 | 初始化系统托盘...
+2026-06-09 15:19:50 | INFO     | app.DeskStudy.ui.system_tray:__init__:44 | 系统托盘初始化完成
+2026-06-09 15:19:50 | INFO     | app.DeskStudy.core.app:initialize:206 | 初始化热键...
+2026-06-09 15:19:50 | INFO     | app.DeskStudy.utils.hotkey:register:32 | 注册热键: Ctrl+Shift+B -> 解析结果: ('ctrl', 'shift', 'b')
+2026-06-09 15:19:50 | INFO     | app.DeskStudy.utils.hotkey:start:94 | 热键监听已启动
+2026-06-09 15:19:50 | INFO     | app.DeskStudy.core.app:_init_hotkeys:341 | 老板键已注册: Ctrl+Shift+B
+2026-06-09 15:19:50 | INFO     | app.DeskStudy.core.app:initialize:211 | DeskStudy 初始化完成!
+2026-06-09 15:19:51 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.utils.hotkey:_on_press:140 | 热键匹配成功: ('ctrl', 'shift', 'b'), 触发回调
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.core.app:emit_from_thread:131 | BossKeySignal: 从后台线程发射信号
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.utils.hotkey:_on_press:143 | 回调执行完毕
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.core.app:_on_triggered:127 | BossKeySignal: 信号已到达主线程，执行回调
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.core.app:_on_boss_key:371 | 老板键触发! is_hidden=False
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.core.app:_hide_all:381 | 执行隐藏所有窗口...
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.core.app:_hide_all:383 | 隐藏悬浮球, 当前visible=True
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.core.app:_hide_all:386 | 隐藏题目面板, 当前visible=True
+2026-06-09 15:19:55 | INFO     | app.DeskStudy.core.app:_on_boss_key:377 | 老板键处理完成, is_hidden=True
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.utils.hotkey:_on_press:140 | 热键匹配成功: ('ctrl', 'shift', 'b'), 触发回调
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.core.app:emit_from_thread:131 | BossKeySignal: 从后台线程发射信号
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.utils.hotkey:_on_press:143 | 回调执行完毕
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.core.app:_on_triggered:127 | BossKeySignal: 信号已到达主线程，执行回调
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.core.app:_on_boss_key:371 | 老板键触发! is_hidden=True
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.core.app:_show_all:394 | 执行显示所有窗口...
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.core.app:_show_all:397 | 显示悬浮球, 当前visible=True
+2026-06-09 15:19:56 | INFO     | app.DeskStudy.core.app:_on_boss_key:377 | 老板键处理完成, is_hidden=False
+2026-06-09 15:19:58 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-09 15:20:03 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-09 15:20:07 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-09 15:21:04 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-09 15:21:07 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
+2026-06-09 15:21:12 | INFO     | app.DeskStudy.ui.question_card:set_review_mode:284 | 切换到刷题模式
+2026-06-09 15:21:19 | INFO     | app.DeskStudy.ui.question_card:_on_option_clicked:542 | 答题结果: 正确
+2026-06-09 15:21:22 | INFO     | app.DeskStudy.core.app:_check_mouse_click:294 | 点击外部，隐藏面板
