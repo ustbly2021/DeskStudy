@@ -20,9 +20,9 @@ import argparse
 from datetime import datetime, timedelta
 
 # ==================== 安全配置（与 license.py 保持一致）====================
-_SECRET_PART_1 = "D3sk"
-_SECRET_PART_2 = "St8dy"
-_SECRET_PART_3 = "2026"
+_SECRET_PART_1 = ""
+_SECRET_PART_2 = ""
+_SECRET_PART_3 = ""
 SECRET_KEY = _SECRET_PART_1 + _SECRET_PART_2 + _SECRET_PART_3
 
 LICENSE_TYPES = {
